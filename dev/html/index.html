@@ -1,0 +1,23 @@
+@@include('header.html')
+	<div class="container l-section">
+		<div class="search-filter">
+			<label>Filter by topic:</label>
+			<select class="form-control selectModel">
+				<option value="abc-news">ABC News</option>
+				<option value="bbc-sport">BBC Sport</option>
+				<option value="entertainment-weekly">Entertainment Weekly</option>
+				<option value="financial-times">Financial Times</option>			
+				<option value="ign">IGN</option>
+				<option value="mtv-news">MTV News</option>
+				<option value="techcrunch">TechCrunch</option>
+				<option value="usa-today">USA Today</option>
+				<option value="wired">Wired wired</option>
+			</select>			
+		</div>
+
+		
+		<div><p class="loading-text">Articles are loading. Please wait...</p></div>
+
+		<div class="row displayData"><!-- dynamic data comes here --></div> <!-- /.row -->
+	</div> <!-- /.container -->
+@@include('footer.html')

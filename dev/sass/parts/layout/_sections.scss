@@ -1,0 +1,13 @@
+//==============================================
+// Layout/sections
+//============================================== 
+
+.l-section {
+	.displayData {
+		padding-bottom: 5%;
+		.col-md-4:nth-child(3n+1){
+			clear: left;
+		}
+	}
+}
+
